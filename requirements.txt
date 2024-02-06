@@ -1,6 +1,3 @@
-ing: invalid value encountered in double_scalars
-  html.P('(' + str(round(((all_data_grouped['Total_recovered'].iloc[-1] - all_data_grouped['Total_recovered'].iloc[-2])/all_data_grouped['Total_recovered'].iloc[-1])*100,2)) + '%)', style={'color':'#f2aa4cff'})
-Dash is running on http://127.0.0.1:8050/
 albumentations==1.1.0
 argon2-cffi==21.1.0
 asgiref==3.5.2
